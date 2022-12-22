@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55401f4f53380497c8d04eaf2be41f59, type: 3}
+  m_Name: EnemyData2
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 16b40f4ba197d494fb83745d3c24b774, type: 3}
+  speed: 2
+  maxHP: 1
+  damage: 1
+  hasBullet: 1
+  shootingSpeed: 1
+  bulletData:
+    type: 0
+    isPlayerBullet: 0
+    sprite: {fileID: 21300000, guid: d09e5cd0b758e4be9998253bb2743a10, type: 3}
+    speed: 0.05
+    damage: 1
+    scale: 1
+  destroyEffect: {fileID: 11400000, guid: f8bca65a1f2854afa98fcb87029363bb, type: 2}
